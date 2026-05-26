@@ -143,26 +143,23 @@ function navigateTo(name) {
 	router.push({ name });
 }
 // ── GOAT ──
-const Bank1 = 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop';
-const Bank2 = 'https://images.unsplash.com/photo-1556740758-90de374c12ad?w=800&h=600&fit=crop';
+import Bank1 from '../../assets/cases/Bank1.jpg';
+import Bank2 from '../../assets/cases/Bank2.jpg';
 // ── Streamax - Smart Transportation ──
-const Airlines1 = 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop';
-const Airlines2 = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop';
+import Airlines1 from '../../assets/cases/Airlines1.jpg';
+import Airlines2 from '../../assets/cases/Airlines2.jpg';
 // ── Nation Technologies - Semiconductor ──
-const Capita1 = 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop';
-const Capita2 = 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=600&fit=crop';
+import Capita1 from '../../assets/cases/Capita1.jpg';
+import Capita2 from '../../assets/cases/Capita2.jpg';
 // ── Hengfei Investment Group ──
-const Keppel1 = 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop';
-const Keppel2 = 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=800&h=600&fit=crop';
-// ── Wilmar - Agriculture ──
-const Food1 = 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=600&fit=crop';
-const Food2 = 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=600&fit=crop';
+import Keppel1 from '../../assets/cases/Keppel1.jpg';
+import Keppel2 from '../../assets/cases/Keppel2.jpg';
 // ── realme - Smart Devices ──
-const Shopee1 = 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=600&fit=crop';
-const Shopee2 = 'https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&h=600&fit=crop';
-// ── ZFILL - Supply Chain ──
-const Bread1 = 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop';
-const Bread2 = 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&h=600&fit=crop';
+import Shopee1 from '../../assets/cases/Shopee1.jpg';
+import Shopee2 from '../../assets/cases/Shopee2.jpg';
+// ── Zall Group - Supply Chain ──
+import Bread1 from '../../assets/cases/Bread1.jpg';
+import Bread2 from '../../assets/cases/Bread2.jpg';
 
 const itemRefs = ref([]);
 const leftInnerStyles = ref([]);
@@ -265,9 +262,9 @@ const cases = [
 		client_name: 'GOAT',
 		industry: 'E-commerce',
 		case_image_url: [Bank1, Bank2],
-		case_sum_info: 'AI-powered authentication and marketplace optimization for the world\'s largest sneaker and apparel resale platform.',
+		case_sum_info: "AI-powered authentication and marketplace optimization for the world's largest sneaker and apparel resale platform.",
 		challenge:
-			'GOAT\'s authentication teams were manually verifying thousands of sneakers and luxury items daily across multiple authentication centers. Counterfeit detection required expert authenticators to inspect every detail, creating bottlenecks during peak sales periods. Pricing optimization relied on manual market analysis, missing real-time opportunities. Customer service teams struggled to handle authentication inquiries and order tracking across global markets.',
+			"GOAT's authentication teams were manually verifying thousands of sneakers and luxury items daily across multiple authentication centers. Counterfeit detection required expert authenticators to inspect every detail, creating bottlenecks during peak sales periods. Pricing optimization relied on manual market analysis, missing real-time opportunities. Customer service teams struggled to handle authentication inquiries and order tracking across global markets.",
 		solution:
 			"AIBoost deployed a multi-agent system integrated with GOAT's authentication workflow and marketplace platform. The Authentication Intelligence Agent uses computer vision to analyze product images, comparing against a database of authentic items to flag potential counterfeits with 95% accuracy. The Dynamic Pricing Agent monitors real-time market demand, competitor pricing, and inventory levels to optimize seller pricing recommendations. The Customer Experience Agent handles authentication status inquiries, shipping updates, and product questions in multiple languages.",
 		keyFeatures: [
@@ -283,7 +280,7 @@ const cases = [
 		],
 		tags: ['E-commerce', 'Computer Vision', 'Authentication', 'Dynamic Pricing', 'Marketplace'],
 		testimonial_quote:
-			"The AI agents have transformed our authentication process and marketplace efficiency. We can now scale authentication without proportionally increasing headcount.",
+			'The AI agents have transformed our authentication process and marketplace efficiency. We can now scale authentication without proportionally increasing headcount.',
 		testimonial_author: 'VP of Operations, GOAT Group'
 	},
 	{
@@ -317,8 +314,7 @@ const cases = [
 		client_name: 'Nation Technologies',
 		industry: 'Semiconductor',
 		case_image_url: [Capita1, Capita2],
-		case_sum_info:
-			'AI-powered chip design optimization and smart manufacturing for a leading semiconductor company specializing in secure chips and SoC solutions.',
+		case_sum_info: 'AI-powered chip design optimization and smart manufacturing for a leading semiconductor company specializing in secure chips and SoC solutions.',
 		challenge:
 			"Nation Technologies' chip design teams were manually verifying complex circuit designs and running thousands of simulation tests, taking weeks to complete each iteration. Manufacturing yield optimization relied on reactive analysis of defect patterns, missing opportunities to prevent issues during production. Quality control across wafer fabrication required extensive manual inspection and testing. Supply chain coordination with foundries and packaging partners lacked real-time visibility, causing delays in production schedules.",
 		solution:

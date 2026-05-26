@@ -9,7 +9,7 @@ export default {
 	},
 	children: [
 		{
-			path: 'home',
+			path: '',
 			name: 'Home',
 			meta: {
 				hideInMenu: true
