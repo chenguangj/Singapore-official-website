@@ -22,7 +22,7 @@
 					<div class="footer__col">
 						<h4>Cases</h4>
 						<div class="a_div" @click="navigateToCase()">All Case Studies</div>
-						<div class="a_div" @click="navigateToCase('aiboost-case-001')">DBS Bank</div>
+						<div class="a_div" @click="navigateToCase('aiboost-case-001')">CMB</div>
 						<div class="a_div" @click="navigateToCase('aiboost-case-002')">Singapore Airlines</div>
 						<div class="a_div" @click="navigateToCase('aiboost-case-003')">CapitaLand</div>
 						<div class="a_div" @click="navigateToCase('aiboost-case-004')">Keppel Ltd.</div>

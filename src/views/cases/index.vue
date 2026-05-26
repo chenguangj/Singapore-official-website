@@ -265,7 +265,7 @@ onUnmounted(() => {
 const cases = [
 	{
 		id: 'aiboost-case-001',
-		client_name: 'DBS Bank',
+		client_name: 'CMB',
 		industry: 'Finance',
 		case_image_url: [Bank1, Bank2],
 		case_sum_info: 'Automated wealth advisory and AML compliance for high-net-worth clients across Singapore and Hong Kong.',

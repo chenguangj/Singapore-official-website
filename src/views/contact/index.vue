@@ -764,7 +764,7 @@ const interestOptions = [
 	}
 ];
 
-const clientLogos = [{ name: 'DBS Bank' }, { name: 'Singapore Airlines' }, { name: 'CapitaLand' }, { name: 'Keppel Ltd.' }, { name: 'Sea Group' }, { name: 'BreadTalk' }];
+const clientLogos = [{ name: 'CMB' }, { name: 'Singapore Airlines' }, { name: 'CapitaLand' }, { name: 'Keppel Ltd.' }, { name: 'Sea Group' }, { name: 'BreadTalk' }];
 
 const countries = [
 	'Singapore',
