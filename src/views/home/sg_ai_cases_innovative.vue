@@ -872,7 +872,7 @@ const panels = [
 	{
 		id: 'finance',
 		color: '#378add',
-		industry: 'Finance · DBS · OCBC · UOB · Temasek',
+		industry: 'Finance · GOAT · OCBC · UOB · Temasek',
 		title: 'Financial services AI agents',
 		subtitle: 'Automating wealth advisory, AML compliance, and investment research — built for MAS regulatory requirements and cross-border operations.',
 		metrics: [
@@ -918,23 +918,11 @@ const panels = [
 		]
 	},
 	{
-		id: 'agri',
-		color: '#1d9e75',
-		industry: 'Agriculture · Wilmar · Olam International',
-		title: 'Agri-food supply chain AI agents',
-		subtitle: 'End-to-end commodity visibility across global supply chains — from farmgate price monitoring to food safety compliance.',
-		metrics: [
-			{ value: '–25%', label: 'Price volatility loss' },
-			{ value: '30%', label: 'Production efficiency' },
-			{ value: 'Full chain', label: 'Visibility' }
-		]
-	},
-	{
 		id: 'tech',
 		color: '#ba7517',
 		industry: 'Tech & internet · realme · Singtel · Razer',
 		title: 'Tech & internet AI agents',
-		subtitle: "Shopee seller automation, Garena player engagement, Singtel network optimization — powering SEA's fastest-growing digital ecosystem.",
+		subtitle: "realme seller automation, Garena player engagement, Singtel network optimization — powering SEA's fastest-growing digital ecosystem.",
 		metrics: [
 			{ value: '80%', label: 'CS automation rate' },
 			{ value: '+30%', label: 'Marketing ROI' },
@@ -1024,7 +1012,7 @@ const data = {
 		{
 			name: 'Commercial property operations agent',
 			tags: ['Leasing', 'Mall analytics', 'Tenant mgmt'],
-			problem: "Automates leasing match, footfall analysis, event ROI forecasting, and lease renewal management across CapitaLand's commercial portfolio.",
+			problem: "Automates leasing match, footfall analysis, event ROI forecasting, and lease renewal management across Hengfei Investment Group's commercial portfolio.",
 			impacts: ['–40% admin workload', '+20% tenant retention']
 		},
 		{
@@ -1072,38 +1060,12 @@ const data = {
 			impacts: ['–40% safety incidents', 'Automated audits']
 		}
 	],
-	agri: [
-		{
-			name: 'Global commodity supply chain agent',
-			tags: ['Palm oil', 'Coffee', 'Price monitoring'],
-			problem: 'Tracks commodity prices across global markets, optimizes logistics routing, and rebalances inventory ahead of price swings.',
-			impacts: ['–25% price loss', 'Full chain visibility']
-		},
-		{
-			name: 'Production optimization agent',
-			tags: ['Wilmar', 'Processing lines', 'Quality'],
-			problem: 'Optimizes palm oil and grain processing line parameters, controls energy use, and detects quality deviations in real time.',
-			impacts: ['30% efficiency gain', '–15% defect rate']
-		},
-		{
-			name: 'Market intelligence agent',
-			tags: ['Demand forecasting', 'Pricing', 'Competitive intel'],
-			problem: 'Forecasts global commodity supply and demand, analyzes SEA and China consumer trends, and tracks competitor pricing.',
-			impacts: ['Better price discovery', 'Faster procurement']
-		},
-		{
-			name: 'Traceability & compliance agent',
-			tags: ['Provenance', 'EU standards', 'China GB'],
-			problem: 'Traces agricultural product origin end-to-end and validates compliance with EU, China, and global food safety standards.',
-			impacts: ['Compliance automation', 'Consumer trust']
-		}
-	],
 	tech: [
 		{
-			name: 'E-commerce operations agent (Shopee)',
-			tags: ['Seller tools', 'Multilingual listings', 'GMV'],
-			problem: 'Recommends products, optimizes multilingual listing content, handles order CS, and matches logistics for 7-market Shopee sellers.',
-			impacts: ['80% CS automation', '+30% conversion']
+			name: 'E-commerce operations agent (GOAT)',
+			tags: ['Authentication', 'Marketplace', 'Dynamic Pricing'],
+			problem: 'Automates product authentication, dynamic pricing optimization, and multilingual customer service for sneaker and luxury resale marketplace.',
+			impacts: ['50% faster authentication', '+30% GMV']
 		},
 		{
 			name: 'Gaming community agent (Garena)',
@@ -1125,8 +1087,8 @@ const data = {
 		},
 		{
 			name: 'Digital marketing agent',
-			tags: ['Meta', 'Shopee Ads', 'ROI optimization'],
-			problem: 'Optimizes cross-platform ad spend across Facebook, Shopee, and Instagram with real-time conversion prediction and audience segmentation.',
+			tags: ['Meta', 'Google Ads', 'ROI optimization'],
+			problem: 'Optimizes cross-platform ad spend across Facebook, Google, and Instagram with real-time conversion prediction and audience segmentation.',
 			impacts: ['+30% marketing ROI', 'Real-time optimization']
 		}
 	],

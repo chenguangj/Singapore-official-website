@@ -22,12 +22,11 @@
 					<div class="footer__col">
 						<h4>Cases</h4>
 						<div class="a_div" @click="navigateToCase()">All Case Studies</div>
-						<div class="a_div" @click="navigateToCase('aiboost-case-001')">CMB</div>
+						<div class="a_div" @click="navigateToCase('aiboost-case-001')">GOAT</div>
 						<div class="a_div" @click="navigateToCase('aiboost-case-002')">Streamax</div>
-						<div class="a_div" @click="navigateToCase('aiboost-case-003')">Galanz</div>
-						<div class="a_div" @click="navigateToCase('aiboost-case-004')">ZTE</div>
-						<div class="a_div" @click="navigateToCase('aiboost-case-005')">Wilmar International</div>
-						<div class="a_div" @click="navigateToCase('aiboost-case-006')">Xiaopeng</div>
+						<div class="a_div" @click="navigateToCase('aiboost-case-003')">Nation Technologies</div>
+						<div class="a_div" @click="navigateToCase('aiboost-case-004')">Hengfei Investment Group</div>
+						<div class="a_div" @click="navigateToCase('aiboost-case-006')">realme</div>
 						<div class="a_div" @click="navigateToCase('aiboost-case-007')">Zall Group</div>
 					</div>
 					<div class="footer__col">
