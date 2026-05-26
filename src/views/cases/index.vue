@@ -150,13 +150,13 @@ import Airlines1 from '../../assets/cases/Airlines1.jpg';
 import Airlines2 from '../../assets/cases/Airlines2.jpg';
 // ── Nation Technologies - Semiconductor ──
 import Capita1 from '../../assets/cases/Capita1.jpg';
-import Capita2 from '../../assets/cases/Capita2.jpg';
+const Capita2 = 'https://images.unsplash.com/photo-1597733336794-12d05021d510?w=800&h=600&fit=crop'; // 半导体芯片制造
 // ── Hengfei Investment Group ──
 import Keppel1 from '../../assets/cases/Keppel1.jpg';
 import Keppel2 from '../../assets/cases/Keppel2.jpg';
 // ── realme - Smart Devices ──
 import Shopee1 from '../../assets/cases/Shopee1.jpg';
-import Shopee2 from '../../assets/cases/Shopee2.jpg';
+const Shopee2 = 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&h=600&fit=crop'; // 智能手机特写
 // ── Zall Group - Supply Chain ──
 import Bread1 from '../../assets/cases/Bread1.jpg';
 import Bread2 from '../../assets/cases/Bread2.jpg';
