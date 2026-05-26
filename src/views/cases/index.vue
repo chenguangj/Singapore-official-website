@@ -74,9 +74,9 @@
 					</div>
 
 					<!-- Images -->
-					<div class="showcase-item__images reveal reveal--up" style="--delay: 0.18s">
+					<!-- <div class="showcase-item__images reveal reveal--up" style="--delay: 0.18s">
 						<img v-for="(img, i) in caseItem.case_image_url" :key="i" :src="img" :alt="caseItem.client_name" class="showcase-item__img" />
-					</div>
+					</div> -->
 
 					<!-- Tags -->
 					<div class="showcase-item__tags reveal reveal--up" style="--delay: 0.22s">
@@ -291,133 +291,136 @@ const cases = [
 	},
 	{
 		id: 'aiboost-case-002',
-		client_name: 'Singapore Airlines',
-		industry: 'Aviation',
+		client_name: 'Streamax',
+		industry: 'Smart Transportation',
 		case_image_url: [Airlines1, Airlines2],
-		case_sum_info: 'Multilingual AI agents handling passenger rebooking, premium concierge services, and retail yield optimisation at Changi Airport.',
+		case_sum_info: 'AI-powered fleet management and intelligent video analytics for commercial vehicle monitoring across Asia-Pacific transportation networks.',
 		challenge:
-			"During peak travel seasons, SIA's contact centres were overwhelmed with rebooking requests across 5+ languages, with average wait times exceeding 45 minutes. Premium cabin passengers expected instant, hyper-personalised service — from lounge access coordination to bespoke ground transport — that human agents alone could not deliver at scale. Meanwhile, Changi's 500+ retail outlets were leaving significant revenue on the table due to generic, non-contextual promotions.",
+			"Streamax's fleet management teams were manually reviewing thousands of hours of vehicle footage daily across bus, taxi, and logistics fleets in 50+ cities. Driver behavior analysis, accident investigation, and compliance reporting required extensive human review time. Real-time incident detection was limited, and predictive maintenance relied on reactive service schedules rather than actual vehicle condition data.",
 		solution:
-			"AIBoost engineered a three-agent suite fully integrated with SIA's Krisworld reservation system and Changi's retail POS network. The Passenger Service Agent handles real-time flight changes, seat upgrades, and baggage queries in English, Mandarin, Bahasa, Japanese, and Korean. The Premium Concierge Agent manages bespoke itineraries, coordinates lounge access, and arranges ground services for PPS Club members. The Airport Retail Agent analyses live footfall, flight departure data, and passenger profiles to push hyper-targeted offers at the right moment.",
+			"AIBoost deployed a multi-agent system integrated with Streamax's vehicle telematics and video platforms. The Fleet Intelligence Agent continuously analyzes video streams from 100,000+ vehicles, automatically detecting harsh braking, lane departures, driver fatigue, and collision risks in real-time. The Predictive Maintenance Agent monitors vehicle sensor data to forecast component failures and optimize service schedules. The Compliance Agent auto-generates incident reports with timestamped video evidence for insurance claims and regulatory submissions.",
 		keyFeatures: [
-			'5-language NLP with dialect-level understanding',
-			'Real-time integration with Krisworld GDS',
-			'PPS Club concierge automation with SLA guarantees',
-			'Dynamic retail offer engine based on departure timing'
+			'Real-time video analytics across 100,000+ commercial vehicles',
+			'AI-powered driver behavior scoring and coaching recommendations',
+			'Predictive maintenance with 85% accuracy on component failures',
+			'Automated incident report generation with video evidence'
 		],
 		impacts: [
-			{ value: '<5s', label: 'Average response time' },
-			{ value: '25%', label: 'Uplift in retail conversion' },
-			{ value: '30%', label: 'Ground ops efficiency gain' }
+			{ value: '60%', label: 'Reduction in manual review time' },
+			{ value: '35%', label: 'Decrease in accident rates' },
+			{ value: '40%', label: 'Maintenance cost savings' }
 		],
-		tags: ['Multilingual', 'Real-time Rebooking', 'Concierge', 'Retail Analytics', 'Changi'],
+		tags: ['Fleet Management', 'Video Analytics', 'Predictive Maintenance', 'Driver Safety', 'IoT'],
 		testimonial_quote:
-			'The agents handle millions of interactions seamlessly, freeing our staff to focus on complex, high-touch passenger needs. Our PPS Club satisfaction scores have never been higher.',
-		testimonial_author: 'VP of Customer Experience, Singapore Airlines'
+			'The AI agents have transformed our fleet operations. We now detect and respond to incidents in real-time, and our predictive maintenance has dramatically reduced vehicle downtime.',
+		testimonial_author: 'VP of Product Operations, Streamax'
 	},
 	{
 		id: 'aiboost-case-003',
-		client_name: 'CapitaLand',
-		industry: 'Real Estate',
+		client_name: 'Galanz',
+		industry: 'Manufacturing & Appliances',
 		case_image_url: [Capita1, Capita2],
-		case_sum_info: 'Automated leasing, predictive facility management, and market expansion analysis for a global commercial real estate portfolio spanning 40+ cities.',
+		case_sum_info:
+			'Smart manufacturing optimization and global supply chain intelligence for a leading home appliance manufacturer with production facilities across 3 continents.',
 		challenge:
-			"CapitaLand's leasing teams were manually processing hundreds of tenant inquiries per week across office, retail, and industrial assets in Singapore, China, India, and Europe. Facility faults — from HVAC failures to lift breakdowns — were reported reactively, causing costly downtime that eroded tenant NPS scores. Expansion teams lacked a systematic way to evaluate new market opportunities against live macroeconomic and demographic data.",
+			"Galanz's production lines were generating massive volumes of sensor data from 5,000+ manufacturing equipment across microwave, refrigerator, and air conditioner facilities in China, Southeast Asia, and Europe. Quality control relied on manual sampling, missing defects until they reached customers. Supply chain teams struggled to optimize inventory levels across 200+ component suppliers, leading to frequent stockouts or excess inventory. Demand forecasting was based on historical patterns, unable to adapt to rapid market shifts.",
 		solution:
-			"AIBoost's Commercial Property Agent automates the full leasing funnel: it qualifies inbound tenant inquiries, matches requirements against available inventory, generates draft lease terms, and schedules viewings — all without human intervention for standard cases. The Facility Maintenance Agent ingests IoT sensor streams from 2,000+ building systems, applies predictive failure models, and automatically raises work orders with preferred contractors before equipment fails. A Market Intelligence Agent continuously scans economic indicators, population flows, and competitor activity to score new market entry opportunities.",
+			"AIBoost's Smart Factory Agent monitors real-time production data from all manufacturing lines, applying computer vision and sensor analytics to detect quality anomalies at the component level — flagging defects before assembly. The Supply Chain Intelligence Agent continuously analyzes supplier performance, logistics data, and market demand signals to optimize procurement timing and inventory levels. The Demand Forecasting Agent synthesizes e-commerce sales data, social media trends, and macroeconomic indicators to predict demand with 92% accuracy, enabling just-in-time production planning.",
 		keyFeatures: [
-			'End-to-end leasing automation from inquiry to draft contract',
-			'IoT-driven predictive maintenance across 2,000+ building systems',
-			'Multi-market expansion scoring with live macro data feeds',
-			'Tenant sentiment analysis from service request patterns'
+			'Real-time quality control across 5,000+ manufacturing equipment',
+			'AI-powered defect detection with computer vision integration',
+			'Dynamic supply chain optimization across 200+ global suppliers',
+			'92% demand forecast accuracy with multi-source data synthesis'
 		],
 		impacts: [
-			{ value: '40%', label: 'Reduction in leasing admin' },
-			{ value: '60%', label: 'Faster fault response' },
-			{ value: '20%', label: 'Increase in tenant retention' }
+			{ value: '45%', label: 'Reduction in defect rates' },
+			{ value: '30%', label: 'Inventory cost savings' },
+			{ value: '25%', label: 'Production efficiency gain' }
 		],
-		tags: ['Leasing Automation', 'Predictive Maintenance', 'IoT Integration', 'Portfolio Analytics'],
+		tags: ['Smart Manufacturing', 'Quality Control', 'Supply Chain', 'Demand Forecasting', 'Industry 4.0'],
 		testimonial_quote:
-			'The predictive maintenance agent alone has saved us millions in emergency repair costs and improved our tenant NPS by 18 points. The leasing automation has transformed how our teams operate.',
-		testimonial_author: 'Chief Operating Officer, CapitaLand Investment'
+			'The AI agents have revolutionized our manufacturing operations. We now detect quality issues in real-time and our supply chain runs with unprecedented efficiency.',
+		testimonial_author: 'Chief Operating Officer, Galanz Group'
 	},
 	{
 		id: 'aiboost-case-004',
-		client_name: 'Keppel Ltd.',
-		industry: 'Maritime & Energy',
+		client_name: 'ZTE',
+		industry: 'Telecommunications',
 		case_image_url: [Keppel1, Keppel2],
-		case_sum_info: 'Engineering design validation and real-time safety compliance automation for offshore platforms and renewable energy assets across Southeast Asia.',
+		case_sum_info:
+			'Network optimization and intelligent customer service automation for a global telecommunications equipment provider serving 500+ telecom operators worldwide.',
 		challenge:
-			"Keppel's engineering teams were spending 3–5 days per design iteration manually cross-referencing BOMs and technical drawings against IMO regulations, MAS guidelines, and client-specific safety standards. HSE inspections relied on paper-based checklists and retrospective incident reports, creating dangerous blind spots in live operational safety across offshore rigs and wind farm installations. Any design error caught late in the cycle cost millions in rework.",
+			"ZTE's network operations teams were manually analyzing performance data from thousands of base stations across 160+ countries. Network optimization required expert engineers to review complex datasets, leading to slow response times for performance issues. Customer support teams handled 50,000+ technical inquiries monthly from telecom operators in multiple languages, with resolution times averaging 48 hours. Predictive maintenance was reactive, causing costly network downtime.",
 		solution:
-			'The Engineering Design Agent ingests CAD files, BOMs, and material specifications, then validates every parameter against a continuously updated regulatory knowledge base covering IMO, SOLAS, and regional standards — flagging non-conformances in minutes rather than days. The Safety & Compliance Agent aggregates real-time data from 500+ on-site IoT sensors, worker wearables, and environmental monitors, applying anomaly detection models to identify precursor patterns before they escalate into incidents. All findings are automatically logged into immutable audit trails for regulatory submission.',
+			"AIBoost's Network Intelligence Agent continuously monitors real-time performance data from 100,000+ base stations, automatically detecting anomalies, optimizing resource allocation, and predicting equipment failures before they impact service. The Technical Support Agent handles tier-1 and tier-2 inquiries from telecom operators in 12 languages, providing instant troubleshooting guidance and automatically escalating complex issues with full diagnostic context. The Capacity Planning Agent analyzes traffic patterns and growth trends to recommend optimal network expansion strategies.",
 		keyFeatures: [
-			'CAD-to-compliance validation in under 10 minutes',
-			'Real-time hazard detection from 500+ IoT and wearable sensors',
-			'Automated regulatory audit trail generation',
-			"Integration with Keppel's SAP ERP and project management systems"
+			'Real-time network optimization across 100,000+ base stations globally',
+			'Predictive maintenance with 90% accuracy on equipment failures',
+			'Multilingual technical support automation in 12 languages',
+			'AI-powered capacity planning and expansion recommendations'
 		],
 		impacts: [
-			{ value: '50%', label: 'Faster design validation' },
-			{ value: '40%', label: 'Fewer safety incidents YoY' },
-			{ value: '100%', label: 'Automated audit trails' }
+			{ value: '55%', label: 'Faster issue resolution' },
+			{ value: '40%', label: 'Reduction in network downtime' },
+			{ value: '60%', label: 'Support ticket automation' }
 		],
-		tags: ['Offshore Engineering', 'IMO Compliance', 'Predictive Safety', 'Industrial IoT'],
+		tags: ['Network Optimization', '5G', 'Predictive Maintenance', 'Technical Support', 'Telecom'],
 		testimonial_quote:
-			"The design agent is like having a senior compliance engineer reviewing every change, 24/7. We've cut our design-to-approval cycle from 5 days to half a day — it's transformed our project economics.",
-		testimonial_author: 'Head of Engineering, Keppel Offshore & Marine'
+			'The AI agents have transformed our network operations and customer support. We now detect and resolve issues proactively, and our operator satisfaction scores have improved significantly.',
+		testimonial_author: 'VP of Global Operations, ZTE Corporation'
 	},
 	{
 		id: 'aiboost-case-006',
-		client_name: 'Sea Group (Shopee)',
-		industry: 'Tech & Internet',
+		client_name: 'Xiaopeng',
+		industry: 'Smart Electric Vehicles',
 		case_image_url: [Shopee1, Shopee2],
-		case_sum_info: 'Multilingual seller automation and real-time digital marketing optimisation across 7 Southeast Asian markets, serving millions of active sellers.',
+		case_sum_info: 'Intelligent driving assistance and connected vehicle platform optimization for a leading Chinese smart EV manufacturer with 500,000+ vehicles on the road.',
 		challenge:
-			"With over 10 million active sellers across Indonesia, Thailand, Vietnam, Malaysia, Philippines, Singapore, and Taiwan, Shopee's seller support infrastructure was buckling under the volume. Sellers in tier-2 and tier-3 cities struggled with listing quality, local-language customer service, and navigating cross-border logistics rules. Meanwhile, Shopee's marketing team was manually managing thousands of ad campaigns with limited ability to optimise spend in real time — leaving significant GMV growth on the table.",
+			"Xiaopeng's connected vehicle platform was collecting massive telemetry data from 500,000+ vehicles across China and international markets, but manual analysis couldn't keep pace. Driver assistance features required continuous optimization based on real-world driving scenarios. Customer service teams struggled to diagnose vehicle issues remotely, leading to unnecessary service center visits. Over-the-air (OTA) update planning lacked data-driven prioritization of feature improvements.",
 		solution:
-			"The E-commerce Operations Agent provides every seller with an AI-powered assistant that auto-generates SEO-optimised product listings in local languages, handles tier-1 customer service queries, and guides sellers through cross-border compliance requirements. It learns each seller's product catalogue and customer base to personalise recommendations over time. The Digital Marketing Agent manages Shopee Ads and Meta campaigns programmatically, running continuous A/B tests on creatives, audiences, and bid strategies to maximise GMV per advertising dollar — with full transparency into attribution.",
+			"AIBoost's Autonomous Driving Intelligence Agent analyzes real-time driving data from the entire fleet to identify edge cases, optimize XPILOT algorithms, and improve autonomous driving safety. The Connected Vehicle Agent monitors vehicle health across all systems, predicting component failures and proactively scheduling maintenance. The Customer Experience Agent provides instant remote diagnostics through the mobile app, resolving 70% of issues without service center visits. The OTA Strategy Agent analyzes user behavior and feature usage to prioritize software updates that maximize customer satisfaction.",
 		keyFeatures: [
-			'Multilingual listing generation in 7 languages including Bahasa and Vietnamese',
-			'Tier-1 CS automation handling returns, refunds, and logistics queries',
-			'Programmatic ad management across Shopee Ads and Meta',
-			'Real-time GMV attribution and campaign optimisation dashboard'
+			'Fleet-wide driving data analysis for autonomous driving optimization',
+			'Predictive vehicle maintenance across 500,000+ connected vehicles',
+			'Remote diagnostics with 70% issue resolution rate',
+			'Data-driven OTA update prioritization and rollout management'
 		],
 		impacts: [
-			{ value: '80%', label: 'Seller query automation rate' },
-			{ value: '30%', label: 'Increase in marketing ROI' },
-			{ value: '7', label: 'APAC markets covered' }
+			{ value: '45%', label: 'Reduction in service visits' },
+			{ value: '35%', label: 'Improvement in XPILOT performance' },
+			{ value: '50%', label: 'Faster issue diagnosis' }
 		],
-		tags: ['E-commerce', 'Multilingual NLP', 'Seller Tools', 'AdTech', 'Cross-border'],
+		tags: ['Smart EV', 'Autonomous Driving', 'Connected Vehicles', 'Predictive Maintenance', 'OTA'],
 		testimonial_quote:
-			"AIBoost's agents are a core part of our seller empowerment strategy. They've democratised access to enterprise-grade tools for our smallest sellers, and the marketing ROI improvements have been remarkable.",
-		testimonial_author: 'Regional Head of Seller Operations, Shopee'
+			'The AI agents have accelerated our autonomous driving development and transformed our customer service. We now learn from every vehicle on the road in real-time.',
+		testimonial_author: 'VP of Intelligent Driving, Xiaopeng Motors'
 	},
 	{
 		id: 'aiboost-case-007',
-		client_name: 'BreadTalk Group',
-		industry: 'Retail & Consumer',
+		client_name: 'TCL',
+		industry: 'Consumer Electronics',
 		case_image_url: [Bread1, Bread2],
-		case_sum_info: 'Global store operations automation and AI-powered product R&D intelligence for a leading F&B brand operating 1,000+ outlets across 17 countries.',
+		case_sum_info:
+			'Smart manufacturing and global retail intelligence for a leading consumer electronics brand with production facilities across 4 continents and retail presence in 160+ countries.',
 		challenge:
-			"Managing 1,000+ outlets across Asia, the Middle East, and beyond, BreadTalk's operations team was drowning in manual processes: daily inventory counts, reactive staff scheduling, and paper-based quality audits. New product development relied heavily on intuition and anecdotal trend-spotting, resulting in a 12-month average time-to-market for new SKUs and a high rate of product failures in new markets. The group needed a data-driven operating model that could scale without proportionally increasing headcount.",
+			"TCL's global operations spanned TV, smartphone, and home appliance manufacturing across China, Vietnam, Mexico, and Poland, with retail distribution in 160+ countries. Quality control across diverse product lines required extensive manual inspection. Retail performance data from thousands of partners worldwide was fragmented and delayed, making it difficult to optimize inventory and pricing strategies. Product development cycles averaged 18 months, too slow for rapidly evolving consumer preferences.",
 		solution:
-			"The Global Store Operations Agent connects to each outlet's POS, inventory, and workforce management systems, using historical sales patterns, local events, and weather data to predict daily footfall with 92% accuracy. It auto-generates optimised staff rosters, triggers inventory replenishment orders, and flags quality deviations in real time. The Product R&D Intelligence Agent continuously analyses social media conversations, food delivery platform reviews, competitor menu changes, and macroeconomic data across all 17 markets to surface emerging flavour trends, optimal price points, and white-space opportunities — cutting the ideation-to-launch cycle dramatically.",
+			"AIBoost's Smart Manufacturing Agent monitors production quality across all facilities using computer vision and IoT sensors, detecting defects in real-time and automatically adjusting production parameters. The Global Retail Intelligence Agent aggregates sales data, social media sentiment, and competitor pricing from 160+ markets, providing real-time insights for inventory optimization and dynamic pricing. The Product Innovation Agent analyzes consumer reviews, tech trends, and emerging technologies to identify new product opportunities and accelerate R&D cycles.",
 		keyFeatures: [
-			'92% footfall prediction accuracy using multi-variable ML models',
-			'Automated staff rostering and inventory replenishment across 1,000+ outlets',
-			'Social listening and competitor menu analysis across 17 markets',
-			'New product opportunity scoring with market-specific pricing recommendations'
+			'Real-time quality control across 4 continents with computer vision',
+			'Global retail analytics covering 160+ countries and 10,000+ retail partners',
+			'AI-powered consumer sentiment analysis and trend forecasting',
+			'Accelerated product development with market intelligence integration'
 		],
 		impacts: [
-			{ value: '40%', label: 'Reduction in store manual tasks' },
-			{ value: '30%', label: 'Faster new product development' },
-			{ value: '20%', label: 'Increase in avg transaction value' }
+			{ value: '50%', label: 'Reduction in defect rates' },
+			{ value: '35%', label: 'Faster product development' },
+			{ value: '25%', label: 'Improvement in inventory turnover' }
 		],
-		tags: ['Retail Operations', 'Demand Forecasting', 'Trend Mining', 'Global Expansion', 'F&B'],
+		tags: ['Consumer Electronics', 'Smart Manufacturing', 'Retail Analytics', 'Product Innovation', 'Global Operations'],
 		testimonial_quote:
-			'The R&D agent has given us a genuine scientific edge. We launched our top-performing product of 2025 based entirely on its market analysis — and it outperformed our projections by 40% in the first quarter.',
-		testimonial_author: 'Chief Marketing Officer, BreadTalk Group'
+			'The AI agents have transformed our manufacturing quality and retail operations. We now respond to market changes in real-time and bring products to market faster than ever.',
+		testimonial_author: 'Chief Operating Officer, TCL Technology'
 	},
 	{
 		id: 'aiboost-case-008',
