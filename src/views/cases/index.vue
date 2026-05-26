@@ -74,9 +74,9 @@
 					</div>
 
 					<!-- Images -->
-					<!-- <div class="showcase-item__images reveal reveal--up" style="--delay: 0.18s">
+					<div class="showcase-item__images reveal reveal--up" style="--delay: 0.18s">
 						<img v-for="(img, i) in caseItem.case_image_url" :key="i" :src="img" :alt="caseItem.client_name" class="showcase-item__img" />
-					</div> -->
+					</div>
 
 					<!-- Tags -->
 					<div class="showcase-item__tags reveal reveal--up" style="--delay: 0.22s">
@@ -142,30 +142,30 @@ const navigateToContact = () => {
 function navigateTo(name) {
 	router.push({ name });
 }
-// ── Bank / DBS ──
-import Bank1 from '../../assets/pictures/bank/DBS银行智能财富管理与反洗钱合规方案 1.png';
-import Bank2 from '../../assets/pictures/bank/DBS银行智能财富管理与反洗钱合规方案 (1) 1.png';
-// ── Airlines ──
-import Airlines1 from '../../assets/pictures/airlines/DBS银行智能财富管理与反洗钱合规方案 (3) 1.png';
-import Airlines2 from '../../assets/pictures/airlines/DBS银行智能财富管理与反洗钱合规方案 (5) 1.png';
-// ── CapitaLand ──
-import Capita1 from '../../assets/pictures/capitaLand/新对话.png';
-import Capita2 from '../../assets/pictures/capitaLand/新对话 (1).png';
-// ── Keppel ──
-import Keppel1 from '../../assets/pictures/keppel/新对话 (4).png';
-import Keppel2 from '../../assets/pictures/keppel/新对话 (5).png';
-// ── Wilmar：目录为空，沿用原 SVG ──
-import Food1 from '../../assets/Food1.svg';
-import Food2 from '../../assets/Food2.svg';
-// ── Shopee ──
-import Shopee1 from '../../assets/pictures/shopee/Shopee卖家自动化与营销优化方案 .png';
-import Shopee2 from '../../assets/pictures/shopee/新对话 (7).png';
-// ── BreadTalk ──
-import Bread1 from '../../assets/pictures/breadtalk/新对话 (2).png';
-import Bread2 from '../../assets/pictures/breadtalk/新对话 (3).png';
-// ── Trafigura ──
-import Traf1 from "../../assets/pictures/trafigura/Trafigura's Commodity Intelligence & Smart Manufacturing.png";
-import Traf2 from '../../assets/pictures/trafigura/Shopee卖家自动化与营销优化方案.png';
+// ── CMB / Bank ──
+const Bank1 = 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop';
+const Bank2 = 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop';
+// ── Streamax - Smart Transportation ──
+const Airlines1 = 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop';
+const Airlines2 = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop';
+// ── Galanz - Manufacturing ──
+const Capita1 = 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=600&fit=crop';
+const Capita2 = 'https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=800&h=600&fit=crop';
+// ── ZTE - Telecommunications ──
+const Keppel1 = 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&h=600&fit=crop';
+const Keppel2 = 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop';
+// ── Wilmar - Agriculture ──
+const Food1 = 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=600&fit=crop';
+const Food2 = 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=600&fit=crop';
+// ── Xiaopeng - Smart EV ──
+const Shopee1 = 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=600&fit=crop';
+const Shopee2 = 'https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&h=600&fit=crop';
+// ── TCL - Consumer Electronics ──
+const Bread1 = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=800&h=600&fit=crop';
+const Bread2 = 'https://images.unsplash.com/photo-1540829917886-91ab031b1764?w=800&h=600&fit=crop';
+// ── Trafigura - Trade & Manufacturing ──
+const Traf1 = 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop';
+const Traf2 = 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&h=600&fit=crop';
 
 const itemRefs = ref([]);
 const leftInnerStyles = ref([]);
