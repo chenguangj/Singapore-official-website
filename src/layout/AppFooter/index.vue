@@ -28,7 +28,7 @@
 						<div class="a_div" @click="navigateToCase('aiboost-case-004')">ZTE</div>
 						<div class="a_div" @click="navigateToCase('aiboost-case-005')">Wilmar International</div>
 						<div class="a_div" @click="navigateToCase('aiboost-case-006')">Xiaopeng</div>
-						<div class="a_div" @click="navigateToCase('aiboost-case-007')">TCL</div>
+						<div class="a_div" @click="navigateToCase('aiboost-case-007')">Zall Group</div>
 					</div>
 					<div class="footer__col">
 						<h4>Contact Us</h4>

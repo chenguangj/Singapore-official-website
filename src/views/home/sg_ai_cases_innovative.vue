@@ -860,12 +860,12 @@ const tabs = [
 ];
 
 const overviewCards = [
-	{ id: 'finance', icon: '◆', bg: '#e6f1fb', name: 'Finance', desc: 'DBS · OCBC · UOB · Temasek · Great Eastern · 4 agents' },
+	{ id: 'finance', icon: '◆', bg: '#e6f1fb', name: 'Finance', desc: 'GOAT · OCBC · UOB · Temasek · Great Eastern · 4 agents' },
 	{ id: 'aviation', icon: '▲', bg: '#eaf3de', name: 'Aviation', desc: 'Streamax · Changi Airport · 4 agents' },
-	{ id: 'realestate', icon: '■', bg: '#eeedfe', name: 'Real estate', desc: 'Galanz · CDL · Far East · 4 agents' },
-	{ id: 'maritime', icon: '●', bg: '#faece7', name: 'Maritime & energy', desc: 'Keppel · Sembcorp · 4 agents' },
-	{ id: 'tech', icon: '○', bg: '#faeeda', name: 'Tech & internet', desc: 'Xiaopeng · Singtel · Razer · 5 agents' },
-	{ id: 'retail', icon: '△', bg: '#fbeaf0', name: 'Retail & consumer', desc: 'TCL · Charles & Keith · OSIM · 4 agents' }
+	{ id: 'realestate', icon: '■', bg: '#eeedfe', name: 'Real estate', desc: 'Hengfei Investment Group · CDL · Far East · 4 agents' },
+	{ id: 'maritime', icon: '●', bg: '#faece7', name: 'Maritime & energy', desc: 'Nation Technologies · Sembcorp · 4 agents' },
+	{ id: 'tech', icon: '○', bg: '#faeeda', name: 'Tech & internet', desc: 'realme · Singtel · Razer · 5 agents' },
+	{ id: 'retail', icon: '△', bg: '#fbeaf0', name: 'Retail & consumer', desc: 'Zall Group · Charles & Keith · OSIM · 4 agents' }
 ];
 
 const panels = [
@@ -896,7 +896,7 @@ const panels = [
 	{
 		id: 'realestate',
 		color: '#7f77dd',
-		industry: 'Real estate · Galanz · CDL · Far East',
+		industry: 'Real estate · Hengfei Investment Group · CDL · Far East',
 		title: 'Real estate & property AI agents',
 		subtitle: 'Automating leasing, facility management, and market expansion research across global commercial and residential portfolios.',
 		metrics: [
@@ -908,7 +908,7 @@ const panels = [
 	{
 		id: 'maritime',
 		color: '#d85a30',
-		industry: 'Maritime & energy · ZTE · Sembcorp',
+		industry: 'Maritime & energy · Nation Technologies · Sembcorp',
 		title: 'Maritime & energy AI agents',
 		subtitle: 'Engineering design validation, renewable asset monitoring, and safety compliance automation for complex industrial operations.',
 		metrics: [
@@ -932,7 +932,7 @@ const panels = [
 	{
 		id: 'tech',
 		color: '#ba7517',
-		industry: 'Tech & internet · Xiaopeng · Singtel · Razer',
+		industry: 'Tech & internet · realme · Singtel · Razer',
 		title: 'Tech & internet AI agents',
 		subtitle: "Shopee seller automation, Garena player engagement, Singtel network optimization — powering SEA's fastest-growing digital ecosystem.",
 		metrics: [
@@ -944,7 +944,7 @@ const panels = [
 	{
 		id: 'retail',
 		color: '#d4537e',
-		industry: 'Retail · TCL · Charles & Keith · OSIM',
+		industry: 'Retail · Zall Group · Charles & Keith · OSIM',
 		title: 'Retail & consumer AI agents',
 		subtitle: 'Global store operations, AI-powered buying guidance, and product R&D acceleration for brands expanding across 3 continents.',
 		metrics: [

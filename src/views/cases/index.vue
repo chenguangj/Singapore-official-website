@@ -142,30 +142,27 @@ const navigateToContact = () => {
 function navigateTo(name) {
 	router.push({ name });
 }
-// ── CMB / Bank ──
-const Bank1 = 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop';
-const Bank2 = 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop';
+// ── GOAT ──
+const Bank1 = 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop';
+const Bank2 = 'https://images.unsplash.com/photo-1556740758-90de374c12ad?w=800&h=600&fit=crop';
 // ── Streamax - Smart Transportation ──
 const Airlines1 = 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop';
 const Airlines2 = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop';
-// ── Galanz - Manufacturing ──
-const Capita1 = 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=600&fit=crop';
-const Capita2 = 'https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=800&h=600&fit=crop';
-// ── ZTE - Telecommunications ──
-const Keppel1 = 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&h=600&fit=crop';
-const Keppel2 = 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop';
+// ── Nation Technologies - Semiconductor ──
+const Capita1 = 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop';
+const Capita2 = 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=600&fit=crop';
+// ── Hengfei Investment Group ──
+const Keppel1 = 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop';
+const Keppel2 = 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=800&h=600&fit=crop';
 // ── Wilmar - Agriculture ──
 const Food1 = 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=600&fit=crop';
 const Food2 = 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=600&fit=crop';
-// ── Xiaopeng - Smart EV ──
-const Shopee1 = 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=600&fit=crop';
-const Shopee2 = 'https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&h=600&fit=crop';
-// ── TCL - Consumer Electronics ──
-const Bread1 = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=800&h=600&fit=crop';
-const Bread2 = 'https://images.unsplash.com/photo-1540829917886-91ab031b1764?w=800&h=600&fit=crop';
-// ── Trafigura - Trade & Manufacturing ──
-const Traf1 = 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop';
-const Traf2 = 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&h=600&fit=crop';
+// ── realme - Smart Devices ──
+const Shopee1 = 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=600&fit=crop';
+const Shopee2 = 'https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&h=600&fit=crop';
+// ── ZFILL - Supply Chain ──
+const Bread1 = 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop';
+const Bread2 = 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&h=600&fit=crop';
 
 const itemRefs = ref([]);
 const leftInnerStyles = ref([]);
@@ -265,29 +262,29 @@ onUnmounted(() => {
 const cases = [
 	{
 		id: 'aiboost-case-001',
-		client_name: 'CMB',
-		industry: 'Finance',
+		client_name: 'GOAT',
+		industry: 'E-commerce',
 		case_image_url: [Bank1, Bank2],
-		case_sum_info: 'Automated wealth advisory and AML compliance for high-net-worth clients across Singapore and Hong Kong.',
+		case_sum_info: 'AI-powered authentication and marketplace optimization for the world\'s largest sneaker and apparel resale platform.',
 		challenge:
-			'Relationship managers spent over 60% of their time on manual data gathering, portfolio reconciliation, and cross-border compliance checks — leaving little bandwidth for genuine client engagement. With MAS tightening AML requirements and HNW clients demanding real-time portfolio insights, the bank needed a scalable solution that could operate across SGD, HKD, and USD simultaneously without compromising regulatory integrity.',
+			'GOAT\'s authentication teams were manually verifying thousands of sneakers and luxury items daily across multiple authentication centers. Counterfeit detection required expert authenticators to inspect every detail, creating bottlenecks during peak sales periods. Pricing optimization relied on manual market analysis, missing real-time opportunities. Customer service teams struggled to handle authentication inquiries and order tracking across global markets.',
 		solution:
-			"AIBoost deployed a dual-agent system deeply integrated with DBS's core banking infrastructure. The Wealth Management Agent continuously monitors market signals, rebalances asset allocations, and surfaces personalised product recommendations for each client tier. The AML Agent runs 24/7 transaction screening against global watchlists, flags suspicious patterns using behavioural analytics, and auto-generates SAR drafts — reducing the compliance team's manual review burden by nearly half.",
+			"AIBoost deployed a multi-agent system integrated with GOAT's authentication workflow and marketplace platform. The Authentication Intelligence Agent uses computer vision to analyze product images, comparing against a database of authentic items to flag potential counterfeits with 95% accuracy. The Dynamic Pricing Agent monitors real-time market demand, competitor pricing, and inventory levels to optimize seller pricing recommendations. The Customer Experience Agent handles authentication status inquiries, shipping updates, and product questions in multiple languages.",
 		keyFeatures: [
-			'Real-time portfolio rebalancing across 12 asset classes',
-			'Automated SAR generation with regulatory-grade audit trails',
-			'Multi-currency support: SGD, HKD, USD, EUR',
-			'MAS-compliant private deployment on DBS internal cloud'
+			'Computer vision-powered authentication with 95% accuracy',
+			'Real-time dynamic pricing optimization across 500,000+ listings',
+			'Multilingual customer support automation in 8 languages',
+			'Fraud detection and seller verification automation'
 		],
 		impacts: [
-			{ value: '70%', label: 'Reduction in advisory prep time' },
-			{ value: '40%', label: 'Decrease in compliance workload' },
-			{ value: '24/7', label: 'Multi-currency monitoring' }
+			{ value: '50%', label: 'Faster authentication process' },
+			{ value: '30%', label: 'Increase in marketplace GMV' },
+			{ value: '70%', label: 'Customer inquiry automation' }
 		],
-		tags: ['Wealth Management', 'AML', 'Multi-currency', 'MAS Compliant', 'Private Deployment'],
+		tags: ['E-commerce', 'Computer Vision', 'Authentication', 'Dynamic Pricing', 'Marketplace'],
 		testimonial_quote:
-			"AIBoost's agents have fundamentally changed how we serve our HNW clients. The speed and accuracy are unmatched — our RMs now spend 70% of their time on client relationships, not paperwork.",
-		testimonial_author: 'Head of Digital Wealth, DBS'
+			"The AI agents have transformed our authentication process and marketplace efficiency. We can now scale authentication without proportionally increasing headcount.",
+		testimonial_author: 'VP of Operations, GOAT Group'
 	},
 	{
 		id: 'aiboost-case-002',
@@ -317,136 +314,110 @@ const cases = [
 	},
 	{
 		id: 'aiboost-case-003',
-		client_name: 'Galanz',
-		industry: 'Manufacturing & Appliances',
+		client_name: 'Nation Technologies',
+		industry: 'Semiconductor',
 		case_image_url: [Capita1, Capita2],
 		case_sum_info:
-			'Smart manufacturing optimization and global supply chain intelligence for a leading home appliance manufacturer with production facilities across 3 continents.',
+			'AI-powered chip design optimization and smart manufacturing for a leading semiconductor company specializing in secure chips and SoC solutions.',
 		challenge:
-			"Galanz's production lines were generating massive volumes of sensor data from 5,000+ manufacturing equipment across microwave, refrigerator, and air conditioner facilities in China, Southeast Asia, and Europe. Quality control relied on manual sampling, missing defects until they reached customers. Supply chain teams struggled to optimize inventory levels across 200+ component suppliers, leading to frequent stockouts or excess inventory. Demand forecasting was based on historical patterns, unable to adapt to rapid market shifts.",
+			"Nation Technologies' chip design teams were manually verifying complex circuit designs and running thousands of simulation tests, taking weeks to complete each iteration. Manufacturing yield optimization relied on reactive analysis of defect patterns, missing opportunities to prevent issues during production. Quality control across wafer fabrication required extensive manual inspection and testing. Supply chain coordination with foundries and packaging partners lacked real-time visibility, causing delays in production schedules.",
 		solution:
-			"AIBoost's Smart Factory Agent monitors real-time production data from all manufacturing lines, applying computer vision and sensor analytics to detect quality anomalies at the component level — flagging defects before assembly. The Supply Chain Intelligence Agent continuously analyzes supplier performance, logistics data, and market demand signals to optimize procurement timing and inventory levels. The Demand Forecasting Agent synthesizes e-commerce sales data, social media trends, and macroeconomic indicators to predict demand with 92% accuracy, enabling just-in-time production planning.",
+			"AIBoost's Chip Design Intelligence Agent automates design rule checking (DRC) and layout versus schematic (LVS) verification, reducing verification time by 60%. The Manufacturing Optimization Agent analyzes real-time production data from fabrication equipment to predict yield issues and automatically adjust process parameters. The Quality Intelligence Agent uses computer vision to inspect wafer defects at nanometer scale, detecting anomalies that human inspectors would miss. The Supply Chain Coordination Agent monitors foundry capacity, material availability, and logistics to optimize production scheduling and minimize lead times.",
 		keyFeatures: [
-			'Real-time quality control across 5,000+ manufacturing equipment',
-			'AI-powered defect detection with computer vision integration',
-			'Dynamic supply chain optimization across 200+ global suppliers',
-			'92% demand forecast accuracy with multi-source data synthesis'
+			'Automated chip design verification with AI-powered DRC and LVS checking',
+			'Real-time manufacturing yield optimization and defect prediction',
+			'Nanometer-scale wafer defect detection with computer vision',
+			'Intelligent supply chain coordination across foundries and packaging partners'
 		],
 		impacts: [
-			{ value: '45%', label: 'Reduction in defect rates' },
-			{ value: '30%', label: 'Inventory cost savings' },
-			{ value: '25%', label: 'Production efficiency gain' }
+			{ value: '60%', label: 'Faster verification' },
+			{ value: '35%', label: 'Improvement in manufacturing yield' },
+			{ value: '45%', label: 'Reduction in defect rates' }
 		],
-		tags: ['Smart Manufacturing', 'Quality Control', 'Supply Chain', 'Demand Forecasting', 'Industry 4.0'],
+		tags: ['Semiconductor', 'Chip Design', 'Smart Manufacturing', 'Quality Control', 'Supply Chain'],
 		testimonial_quote:
-			'The AI agents have revolutionized our manufacturing operations. We now detect quality issues in real-time and our supply chain runs with unprecedented efficiency.',
-		testimonial_author: 'Chief Operating Officer, Galanz Group'
+			'The AI agents have transformed our chip design and manufacturing processes. We now iterate faster and achieve higher yields with unprecedented quality control.',
+		testimonial_author: 'VP of Operations, Nation Technologies'
 	},
 	{
 		id: 'aiboost-case-004',
-		client_name: 'ZTE',
-		industry: 'Telecommunications',
+		client_name: 'Hengfei Investment Group',
+		industry: 'Real Estate & Investment',
 		case_image_url: [Keppel1, Keppel2],
 		case_sum_info:
-			'Network optimization and intelligent customer service automation for a global telecommunications equipment provider serving 500+ telecom operators worldwide.',
+			'AI-powered property investment analysis and portfolio management for a leading real estate investment group with assets across commercial, residential, and industrial properties in Guangdong.',
 		challenge:
-			"ZTE's network operations teams were manually analyzing performance data from thousands of base stations across 160+ countries. Network optimization required expert engineers to review complex datasets, leading to slow response times for performance issues. Customer support teams handled 50,000+ technical inquiries monthly from telecom operators in multiple languages, with resolution times averaging 48 hours. Predictive maintenance was reactive, causing costly network downtime.",
+			"Hengfei Investment Group's portfolio management teams were manually analyzing market data, property valuations, and investment opportunities across hundreds of properties in Guangdong province. Due diligence for new acquisitions required extensive manual research and financial modeling, taking weeks to complete. Tenant management across commercial properties was reactive, with lease renewals and rent adjustments based on outdated market data. Risk assessment for property investments lacked real-time market intelligence.",
 		solution:
-			"AIBoost's Network Intelligence Agent continuously monitors real-time performance data from 100,000+ base stations, automatically detecting anomalies, optimizing resource allocation, and predicting equipment failures before they impact service. The Technical Support Agent handles tier-1 and tier-2 inquiries from telecom operators in 12 languages, providing instant troubleshooting guidance and automatically escalating complex issues with full diagnostic context. The Capacity Planning Agent analyzes traffic patterns and growth trends to recommend optimal network expansion strategies.",
+			"AIBoost's Investment Intelligence Agent continuously monitors real estate market trends, property valuations, and economic indicators across Guangdong to identify high-potential investment opportunities. The Portfolio Management Agent analyzes property performance, tenant quality, and market conditions to optimize asset allocation and recommend strategic acquisitions or disposals. The Tenant Intelligence Agent automates lease management, predicts tenant churn, and recommends optimal pricing strategies based on market comparables. The Risk Assessment Agent evaluates investment risks using multi-factor analysis including market volatility, regulatory changes, and economic forecasts.",
 		keyFeatures: [
-			'Real-time network optimization across 100,000+ base stations globally',
-			'Predictive maintenance with 90% accuracy on equipment failures',
-			'Multilingual technical support automation in 12 languages',
-			'AI-powered capacity planning and expansion recommendations'
+			'Real-time property market intelligence across Guangdong province',
+			'AI-powered investment opportunity scoring and due diligence automation',
+			'Predictive tenant churn analysis and dynamic lease pricing',
+			'Multi-factor risk assessment for property investments'
 		],
 		impacts: [
-			{ value: '55%', label: 'Faster issue resolution' },
-			{ value: '40%', label: 'Reduction in network downtime' },
-			{ value: '60%', label: 'Support ticket automation' }
+			{ value: '60%', label: 'Faster investment decision-making' },
+			{ value: '35%', label: 'Improvement in portfolio ROI' },
+			{ value: '45%', label: 'Reduction in tenant vacancy rates' }
 		],
-		tags: ['Network Optimization', '5G', 'Predictive Maintenance', 'Technical Support', 'Telecom'],
+		tags: ['Real Estate', 'Investment Management', 'Portfolio Optimization', 'Market Intelligence', 'Risk Assessment'],
 		testimonial_quote:
-			'The AI agents have transformed our network operations and customer support. We now detect and resolve issues proactively, and our operator satisfaction scores have improved significantly.',
-		testimonial_author: 'VP of Global Operations, ZTE Corporation'
+			'The AI agents have transformed our investment analysis and portfolio management. We now identify opportunities faster and make data-driven decisions with confidence.',
+		testimonial_author: 'Chief Investment Officer, Hengfei Investment Group'
 	},
 	{
 		id: 'aiboost-case-006',
-		client_name: 'Xiaopeng',
-		industry: 'Smart Electric Vehicles',
+		client_name: 'realme',
+		industry: 'Smart Devices',
 		case_image_url: [Shopee1, Shopee2],
-		case_sum_info: 'Intelligent driving assistance and connected vehicle platform optimization for a leading Chinese smart EV manufacturer with 500,000+ vehicles on the road.',
+		case_sum_info: 'AI-powered quality control and customer experience optimization for a fast-growing smartphone brand with 100M+ users globally.',
 		challenge:
-			"Xiaopeng's connected vehicle platform was collecting massive telemetry data from 500,000+ vehicles across China and international markets, but manual analysis couldn't keep pace. Driver assistance features required continuous optimization based on real-world driving scenarios. Customer service teams struggled to diagnose vehicle issues remotely, leading to unnecessary service center visits. Over-the-air (OTA) update planning lacked data-driven prioritization of feature improvements.",
+			"realme's rapid growth to 100M+ users created massive quality control and customer service challenges. Manufacturing lines across multiple facilities struggled to maintain consistent quality standards during high-volume production. Customer service teams were overwhelmed with device troubleshooting, warranty claims, and software update inquiries across 60+ markets. Product feedback from millions of users was scattered across social media, forums, and support channels, making it difficult to identify and prioritize improvements.",
 		solution:
-			"AIBoost's Autonomous Driving Intelligence Agent analyzes real-time driving data from the entire fleet to identify edge cases, optimize XPILOT algorithms, and improve autonomous driving safety. The Connected Vehicle Agent monitors vehicle health across all systems, predicting component failures and proactively scheduling maintenance. The Customer Experience Agent provides instant remote diagnostics through the mobile app, resolving 70% of issues without service center visits. The OTA Strategy Agent analyzes user behavior and feature usage to prioritize software updates that maximize customer satisfaction.",
+			"AIBoost's Quality Intelligence Agent monitors production lines using computer vision and sensor data, detecting defects in real-time and automatically adjusting manufacturing parameters to maintain quality standards. The Customer Experience Agent provides instant device diagnostics, troubleshooting guidance, and warranty processing in 15 languages. The Product Feedback Agent aggregates and analyzes user feedback from all channels, identifying common issues and feature requests to inform product roadmap decisions. The Supply Chain Agent optimizes component sourcing and inventory levels across global markets.",
 		keyFeatures: [
-			'Fleet-wide driving data analysis for autonomous driving optimization',
-			'Predictive vehicle maintenance across 500,000+ connected vehicles',
-			'Remote diagnostics with 70% issue resolution rate',
-			'Data-driven OTA update prioritization and rollout management'
+			'Real-time quality control with computer vision across manufacturing facilities',
+			'Multilingual customer support automation in 15 languages',
+			'AI-powered product feedback analysis from 100M+ users',
+			'Dynamic supply chain optimization for global markets'
 		],
 		impacts: [
-			{ value: '45%', label: 'Reduction in service visits' },
-			{ value: '35%', label: 'Improvement in XPILOT performance' },
-			{ value: '50%', label: 'Faster issue diagnosis' }
+			{ value: '40%', label: 'Reduction in defect rates' },
+			{ value: '55%', label: 'Faster customer issue resolution' },
+			{ value: '30%', label: 'Improvement in customer satisfaction' }
 		],
-		tags: ['Smart EV', 'Autonomous Driving', 'Connected Vehicles', 'Predictive Maintenance', 'OTA'],
+		tags: ['Smartphones', 'Quality Control', 'Customer Experience', 'Product Analytics', 'Global Operations'],
 		testimonial_quote:
-			'The AI agents have accelerated our autonomous driving development and transformed our customer service. We now learn from every vehicle on the road in real-time.',
-		testimonial_author: 'VP of Intelligent Driving, Xiaopeng Motors'
+			'The AI agents have enabled us to scale quality and customer service while maintaining the high standards our users expect. We now respond to market feedback faster than ever.',
+		testimonial_author: 'VP of Product Operations, realme'
 	},
 	{
 		id: 'aiboost-case-007',
-		client_name: 'TCL',
-		industry: 'Consumer Electronics',
+		client_name: 'Zall Group',
+		industry: 'Supply Chain & Logistics',
 		case_image_url: [Bread1, Bread2],
 		case_sum_info:
-			'Smart manufacturing and global retail intelligence for a leading consumer electronics brand with production facilities across 4 continents and retail presence in 160+ countries.',
+			'AI-powered supply chain finance and logistics intelligence for a leading commercial trading and supply chain service platform connecting manufacturers with distributors across China.',
 		challenge:
-			"TCL's global operations spanned TV, smartphone, and home appliance manufacturing across China, Vietnam, Mexico, and Poland, with retail distribution in 160+ countries. Quality control across diverse product lines required extensive manual inspection. Retail performance data from thousands of partners worldwide was fragmented and delayed, making it difficult to optimize inventory and pricing strategies. Product development cycles averaged 18 months, too slow for rapidly evolving consumer preferences.",
+			"Zall Group's platform was connecting thousands of manufacturers with distributors across multiple industries, but manual credit assessment and logistics coordination created inefficiencies. Supply chain financing decisions required extensive manual review of trading partner creditworthiness, slowing capital deployment. Demand forecasting relied on historical patterns, leading to frequent stockouts or excess inventory. Logistics routing was suboptimal, increasing delivery times and costs across the platform.",
 		solution:
-			"AIBoost's Smart Manufacturing Agent monitors production quality across all facilities using computer vision and IoT sensors, detecting defects in real-time and automatically adjusting production parameters. The Global Retail Intelligence Agent aggregates sales data, social media sentiment, and competitor pricing from 160+ markets, providing real-time insights for inventory optimization and dynamic pricing. The Product Innovation Agent analyzes consumer reviews, tech trends, and emerging technologies to identify new product opportunities and accelerate R&D cycles.",
+			"AIBoost's Supply Chain Finance Agent uses machine learning to assess trading partner creditworthiness and automate financing approval decisions, enabling faster capital deployment to qualified partners. The Logistics Intelligence Agent dynamically routes shipments based on real-time traffic, weather, and capacity data to minimize delivery times and costs. The Demand Forecasting Agent analyzes real-time market signals, inventory levels, and transaction patterns to optimize order matching and inventory allocation. The Risk Management Agent monitors commodity prices, supply disruptions, and partner performance to provide early warnings and mitigation recommendations.",
 		keyFeatures: [
-			'Real-time quality control across 4 continents with computer vision',
-			'Global retail analytics covering 160+ countries and 10,000+ retail partners',
-			'AI-powered consumer sentiment analysis and trend forecasting',
-			'Accelerated product development with market intelligence integration'
+			'AI-powered supply chain finance credit assessment and approval automation',
+			'Dynamic logistics routing with real-time traffic and weather integration',
+			'Intelligent demand forecasting and order matching across platform',
+			'Real-time risk monitoring for commodity prices and supply disruptions'
 		],
 		impacts: [
-			{ value: '50%', label: 'Reduction in defect rates' },
-			{ value: '35%', label: 'Faster product development' },
-			{ value: '25%', label: 'Improvement in inventory turnover' }
+			{ value: '50%', label: 'Faster financing approval' },
+			{ value: '35%', label: 'Reduction in delivery times' },
+			{ value: '40%', label: 'Improvement in inventory turnover' }
 		],
-		tags: ['Consumer Electronics', 'Smart Manufacturing', 'Retail Analytics', 'Product Innovation', 'Global Operations'],
+		tags: ['Supply Chain Finance', 'Logistics', 'B2B Platform', 'Credit Risk', 'Commercial Trading'],
 		testimonial_quote:
-			'The AI agents have transformed our manufacturing quality and retail operations. We now respond to market changes in real-time and bring products to market faster than ever.',
-		testimonial_author: 'Chief Operating Officer, TCL Technology'
-	},
-	{
-		id: 'aiboost-case-008',
-		client_name: 'Trafigura',
-		industry: 'Trade & Manufacturing',
-		case_image_url: [Traf1, Traf2],
-		case_sum_info: "Commodity intelligence synthesis and smart manufacturing scheduling for one of the world's largest independent commodity trading and logistics companies.",
-		challenge:
-			"Trafigura's trading desks handle billions of dollars in commodity transactions daily across oil, metals, and minerals. Traders needed to synthesise geopolitical developments, weather events, shipping disruptions, and price movements from hundreds of sources simultaneously — an impossible task for human analysts alone. Concurrently, manufacturing partners across Asia were experiencing frequent unplanned equipment downtime that disrupted delivery commitments and eroded client trust. The cost of a single missed delivery window in LNG trading could run into tens of millions.",
-		solution:
-			'The Commodity Trading Intelligence Agent aggregates and cross-references data from 200+ sources — including Reuters, Bloomberg, AIS vessel tracking, satellite imagery of storage facilities, and geopolitical risk feeds — to build a continuously updated market intelligence picture. It surfaces arbitrage opportunities, flags supply disruption risks, and generates trade recommendations with confidence scores and supporting evidence. The Smart Factory Agent monitors production line IoT data from partner facilities across 8 countries, applying predictive maintenance models to schedule interventions during planned downtime windows — eliminating surprise failures.',
-		keyFeatures: [
-			'Real-time intelligence synthesis from 200+ global data sources',
-			'Arbitrage opportunity detection with confidence scoring and evidence trails',
-			'Predictive maintenance across partner manufacturing facilities in 8 countries',
-			'Automated delivery risk alerts with recommended mitigation actions'
-		],
-		impacts: [
-			{ value: '50%', label: 'Faster trading desk decisions' },
-			{ value: '35%', label: 'Reduction in unplanned downtime' },
-			{ value: '20%', label: 'Overall supply chain cost savings' }
-		],
-		tags: ['Commodity Intelligence', 'Predictive Maintenance', 'Global Logistics', 'Industry 4.0', 'Risk Management'],
-		testimonial_quote:
-			"In our world, information asymmetry is everything. AIBoost's intelligence agent has given our traders a decisive edge — we're seeing opportunities and risks hours before our competitors, and that translates directly to P&L.",
-		testimonial_author: 'Senior Trading Manager, Trafigura'
+			'The AI agents have transformed our platform efficiency and financing operations. We now assess credit risk and deploy capital faster while optimizing logistics in real-time.',
+		testimonial_author: 'Chief Operating Officer, Zall Group'
 	}
 ];
 

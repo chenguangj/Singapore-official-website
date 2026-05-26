@@ -764,7 +764,7 @@ const interestOptions = [
 	}
 ];
 
-const clientLogos = [{ name: 'CMB' }, { name: 'Streamax' }, { name: 'Galanz' }, { name: 'ZTE' }, { name: 'Xiaopeng' }, { name: 'TCL' }];
+const clientLogos = [{ name: 'GOAT' }, { name: 'Streamax' }, { name: 'Nation Technologies' }, { name: 'Hengfei Investment Group' }, { name: 'realme' }, { name: 'Zall Group' }];
 
 const countries = [
 	'Singapore',
