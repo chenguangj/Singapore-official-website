@@ -151,7 +151,7 @@
 										/>
 									</svg>
 								</span>
-								<span>+65 8688 1371 &nbsp;·&nbsp; +852 469 14160</span>
+								<span>+65 8688 1371 &nbsp;·&nbsp; +852 5127 8070</span>
 							</div>
 							<div class="contact-info__item">
 								<span class="contact-info__icon">
